@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.github.happyuky7'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs './libs'
+    }
+}
+
+dependencies {
+    compileOnly name: 'HytaleServer'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+jar {
+    archiveBaseName = 'SimpleServerTransferHytale'
+}

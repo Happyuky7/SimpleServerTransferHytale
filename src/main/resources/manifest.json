@@ -1,0 +1,19 @@
+{
+  "Group": "com.github.happyuky7",
+  "Name": "SimpleServerTransferHytale",
+  "Version": "1.0.0",
+  "Description": "Simple Server Transfer is /servertransfer <ip:port>",
+  "Authors": [
+    {
+      "Name": "Happyuky7",
+      "Email": "",
+      "Url": "https://github.com/happyuky7"
+    }
+  ],
+  "Website": "https://github.com/happyuky7",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "com.github.happyuky7.simpleservertransferhytale.SimpleServerTransferHytale"
+}
