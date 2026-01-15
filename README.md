@@ -70,6 +70,7 @@ st 127.0.0.1:5520 --targetPlayer=Hytale
 ### Requirements
 - **Java 25**
 - Gradle
+- HytaleServer.jar
 
 ### Build steps
 
@@ -82,6 +83,11 @@ Once downloaded in the git terminal use the following command:
 
 ```bash
 $ cd SimpleServerTransferHytale
+```
+
+Add HytaleServer.jar in libs folder
+```bash
+$ libs/HytaleServer.jar
 ```
 
 Now inside the directory you execute the following maven command:
